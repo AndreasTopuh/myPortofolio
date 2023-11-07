@@ -15,8 +15,8 @@ const Body = () => {
           <div className="col-lg-8 col-md-7 text-center text-md">
             <h2 className="h1 mt-2" data-aos="fade-left" data-aos-delay={0}>Andreas Jeno</h2>
             
-            <p data-aos="fade-left" data-aos-delay="50" data-aos-duration="100">Graphic Designer &amp; Web Developer</p>
-            {/* <p >Graphic Designer &amp; Web Developer</p> */}
+            {/* <p data-aos="fade-left" data-aos-delay="50" data-aos-duration="100">Graphic Designer &amp; Web Developer</p> */}
+            <p >Graphic Designer &amp; Web Developer</p>
             <div className="d-print-none" ><a className="btn btn-light text-dark shadow-sm mt-1 me-1" href="right-resume.pdf" target="_blank">Download CV</a><a className="btn btn-success shadow-sm mt-1" href="#contact">Hire Me</a></div>
             {/* <div className="d-print-none" data-aos="fade-left" data-aos-delay={200}><a className="btn btn-light text-dark shadow-sm mt-1 me-1" href="right-resume.pdf" target="_blank">Download CV</a><a className="btn btn-success shadow-sm mt-1" href="#contact">Hire Me</a></div> */}
 
@@ -91,7 +91,7 @@ const Body = () => {
                 <div className="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right" data-aos-delay={500} data-aos-anchor=".skills-section" style={{width: '85%'}} aria-valuenow={85} aria-valuemin={0} aria-valuemax={100} />
               </div>
             </div>
-            <div className="mb-2"><span>Adobe Premiere Pro</span>
+            <div className="mb-2"><span>Capcut</span>
               <div className="progress my-1">
                 <div className="progress-bar bg-warning" role="progressbar" data-aos="zoom-in-right" data-aos-delay={600} data-aos-anchor=".skills-section" style={{width: '75%'}} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />
               </div>
@@ -103,17 +103,18 @@ const Body = () => {
       <div className="work-experience-section px-3 px-lg-4">
         <h2 className="h3 mb-4">Work Experience</h2>
         <div className="timeline">
-          <div className="timeline-card timeline-card-primary card shadow-sm">
+          {/* <div className="timeline-card timeline-card-primary card shadow-sm">
             <div className="card-body">
               <div className="h5 mb-1">Frontend Developer <span className="text-muted h6">....</span></div>
               <div className="text-muted text-small mb-2">May, 2015 - Present</div>
               <div>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</div>
             </div>
-          </div>
+          </div> */}
           <div className="timeline-card timeline-card-primary card shadow-sm">
             <div className="card-body">
-              <div className="h5 mb-1">Graphic Designer <span className="text-muted h6">at Design Studio</span></div>
-              <div className="text-muted text-small mb-2">June, 2013 - May, 2015</div>
+              <div className="h5 mb-1">Freelance <span className="text-muted h6">from home</span></div>
+              <div className="text-muted h3">March, 2023 - now</div>
+              <div className="text-muted text-small mb-2">March, 2023 - now</div>
               <div>Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</div>
             </div>
           </div>
