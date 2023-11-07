@@ -15,7 +15,7 @@ const Body = () => {
           <div className="col-lg-8 col-md-7 text-center text-md">
             <h2 className="h1 mt-2" data-aos="fade-left" data-aos-delay={0}>Andreas Jeno</h2>
             
-            {/* <p data-aos="fade-left" data-aos-delay="50" data-aos-duration="100">Graphic Designer &amp; Web Developer</p> */}
+            <p data-aos="fade-left" data-aos-delay="50" data-aos-duration="100">Graphic Designer &amp; Web Developer</p>
             {/* <p >Graphic Designer &amp; Web Developer</p> */}
             <div className="d-print-none" ><a className="btn btn-light text-dark shadow-sm mt-1 me-1" href="right-resume.pdf" target="_blank">Download CV</a><a className="btn btn-success shadow-sm mt-1" href="#contact">Hire Me</a></div>
             {/* <div className="d-print-none" data-aos="fade-left" data-aos-delay={200}><a className="btn btn-light text-dark shadow-sm mt-1 me-1" href="right-resume.pdf" target="_blank">Download CV</a><a className="btn btn-success shadow-sm mt-1" href="#contact">Hire Me</a></div> */}
