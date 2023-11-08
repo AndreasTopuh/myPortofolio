@@ -115,7 +115,7 @@ const Body = () => {
               <div className="h5 mb-1">Freelance <span className="text-muted h6">from home</span></div>
               <div className="text-muted h3">March, 2023 - now</div>
               <div className="text-muted text-small mb-2">March, 2023 - now</div>
-              <div>Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</div>
+              <div>Being Freelance sometimes good and sometimes not good, because the project comes not everyday. </div>
             </div>
           </div>
           <div className="timeline-card timeline-card-primary card shadow-sm">
