@@ -4,7 +4,7 @@ import Aos from "aos";
 // eslint-disable-next-line no-unused-vars
 import React, { useEffect } from "react";
 import "../assets/aos.css";
-import "/src/index.css";
+
 
 const Body = () => {
   useEffect(() => {
@@ -15,7 +15,7 @@ const Body = () => {
     <div className="page-content">
       <div className="container">
         <div className="cover shadow-lg bg-white">
-          <div className="cover-bg p-6 p-lg-4  text-white">
+          <div className="cover-bg p-3 p-lg-4  text-white">
             <div className="row">
               <div className="col-lg-4 col-md-5">
                 <div className="avatar hover-effect bg-dark shadow-lg p-1">
