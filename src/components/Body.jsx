@@ -17,7 +17,7 @@ const Body = () => {
           <div className="cover-bg p-3 p-lg-4  text-white">
             <div className="row">
               <div className="col-lg-4 col-md-5">
-                <div className="avatar hover-effect bg-dark shadow-lg p-1">
+                <div className="avatar hover-effect bg-white shadow-lg p-1">
                   <img
                     className="gambar-gaul"
                     src="/images/WhatsApp Image 2023-08-11 at 13.04.04.jpeg"
@@ -33,17 +33,28 @@ const Body = () => {
                 </h2>
                 {/* <h2 className="h1 mt-2">Andreas Jeno</h2> */}
                 <p>Graphic Designer &amp; Web Developer</p>
-                <div className="d-print-none">
-                  <a
-                    className="btn btn-light text-dark shadow-sm mt-1 me-1"
-                    href="right-resume.pdf"
-                    target="_blank"
-                  >
+                <div className="d-print-none ">
+
+                  {/* <a className="btn btn-light text-dark shadow-lg mt-1 me-1 col-6 col-md-4" href="right-resume.pdf" target="_blank">
+                    Download CV
+                  </a> */}
+
+                  <a className="btn-atas btn btn-info shadow-lg mt-1 col-lg-4 col-md-6 col-sm-12" href="right-resume.pdf" target="_blank">
                     Download CV
                   </a>
-                  <a className="btn btn-success shadow-sm mt-1" href="#contact">
+
+                  <a className="btn-atas btn btn-warning shadow-lg mt-1 col-lg-4 col-md-6 col-sm-12" href="#work-ex">
+                    Work Experience
+                  </a>
+
+                  <a className="btn-atas btn btn-warning shadow-lg mt-1 col-lg-4 col-md-6 col-sm-12" href="#education">
+                    Education
+                  </a>
+
+                  <a className="btn-atas btn btn-warning shadow-lg mt-1 col-lg-4 col-md-6 col-sm-12" href="#contact">
                     Hire Me
                   </a>
+
                 </div>
               </div>
             </div>
@@ -94,7 +105,7 @@ const Body = () => {
             </div>
           </div>
           <hr className="d-print-none" />
-          <div className="skills-section px-3 px-lg-4">
+          <div className="skills-section px-3 px-lg-4" id="pro-skill">
             <h2 className="h3 mb-3">Professional Skills</h2>
             <div className="row">
               <div className="col-md-6">
@@ -202,7 +213,8 @@ const Body = () => {
           <hr className="d-print-none" />
 
           <div className="work-experience-section px-3 px-lg-2">
-            <h2 className="h3 mb-4">Work Experience</h2>
+            <h2 className="h3 mb-4"  id="work-ex">
+              Work Experience</h2>
             <div className="timeline">
               <div
                 className="timeline-card timeline-card-dark card shadow-lg"
@@ -345,7 +357,7 @@ const Body = () => {
           <div className="page-break" />
 
           <div className="education-section px-3 px-lg-4 pb-4">
-            <h2 className="h3 mb-4">Education</h2>
+            <h2 className="h3 mb-4" id="education">Education</h2>
             <div className="timeline">
               <div className="timeline-card timeline-card-success card shadow-sm">
                 <div className="card-body">

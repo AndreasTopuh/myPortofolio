@@ -3093,7 +3093,7 @@ textarea.form-control.is-invalid {
 }
 
 .btn:hover {
-    color: #434a54
+    color: #ffffff
 }
 
 .btn-check:focus+.btn,
@@ -3292,13 +3292,13 @@ fieldset:disabled .btn {
 .btn-warning {
     color: #000;
     background-color: #f6bb42;
-    border-color: #f6bb42
+    /* border-color: rgb(0, 0, 0) */
 }
 
 .btn-warning:hover {
     color: #000;
-    background-color: #f7c55e;
-    border-color: #f7c255
+    background-color: #f1f1f1;
+    border-color: rgb(251, 251, 251)
 }
 
 .btn-check:focus+.btn-warning,

@@ -1,6 +1,10 @@
 /* Buttons */
 /* Inputs */
 /* Timeline custom component */
+
+.btn-atas{
+  margin-left: 5px;
+}
 .timeline {
   border-left: 2px solid #E6E9ED;
   padding: 2rem 0; 
