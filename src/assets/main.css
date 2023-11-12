@@ -3,12 +3,13 @@
 /* Timeline custom component */
 .timeline {
   border-left: 2px solid #E6E9ED;
-  padding: 1rem 0; }
+  padding: 2rem 0; 
+}
 
 .timeline-card {
   position: relative;
   margin-left: 31px;
-  border-left: 2px solid;
+  border-left: 1px solid;
   margin-bottom: 2rem; }
 
 .timeline-card:last-child {
@@ -118,7 +119,8 @@ footer a:not(.nav-link) {
   .container {
     width: auto;
     max-width: 100%;
-    padding: 0; }
+    padding: -1rem; 
+  }
   .cover, .cover-bg {
     border-radius: 0; }
   .cover.shadow-lg {
@@ -193,6 +195,7 @@ footer a:not(.nav-link) {
 
 .timeline-event {
   position: relative;
+  padding: 1rem;
 }
 
 .timeline-event:hover .timeline-event-icon {

@@ -18,7 +18,7 @@ const Body = () => {
           <div className="cover-bg p-3 p-lg-4  text-white">
             <div className="row">
               <div className="col-lg-4 col-md-5">
-                <div className="avatar hover-effect bg-white shadow-lg p-1">
+                <div className="avatar hover-effect bg-dark shadow-lg p-1">
                   <img
                     className="gambar-gaul"
                     src="/images/WhatsApp Image 2023-08-11 at 13.04.04.jpeg"
@@ -249,7 +249,7 @@ const Body = () => {
               </div> */}
               
               <div className="section-s" id="experience">
-                <div className="container-ex">
+                <div className="container">
                   {/* <div className="col-md-12">
                     <h4>02</h4>
                     <h1 className="size-50">
