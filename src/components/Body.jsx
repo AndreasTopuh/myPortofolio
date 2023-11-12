@@ -28,30 +28,30 @@ const Body = () => {
               </div>
 
               <div className="col-lg-8 col-md-7 text-center text-md">
-                <h2 className="h1 mt-2" data-aos="fade-bottom" data-aos-delay={1000}>
+                <h2 className="h1 mt-2" data-aos="fade-left" data-aos-delay={100}>
                   Andreas Jeno
                 </h2>
                 {/* <h2 className="h1 mt-2">Andreas Jeno</h2> */}
-                <p>Graphic Designer &amp; Web Developer</p>
+                <p data-aos="fade-up" data-aos-delay={100}>Graphic Designer &amp; Web Developer</p>
                 <div className="d-print-none ">
 
                   {/* <a className="btn btn-light text-dark shadow-lg mt-1 me-1 col-6 col-md-4" href="right-resume.pdf" target="_blank">
                     Download CV
                   </a> */}
 
-                  <a className="btn-atas btn btn-info shadow-lg mt-1 col-lg-4 col-md-6 col-sm-12" href="right-resume.pdf" target="_blank">
+                  <a className="btn-atas btn btn-warning shadow-lg mt-1 col-lg-4 col-md-6 col-sm-12" href="right-resume.pdf" target="_blank" data-aos="fade-right"data-aos-delay={300} > 
                     Download CV
                   </a>
 
-                  <a className="btn-atas btn btn-warning shadow-lg mt-1 col-lg-4 col-md-6 col-sm-12" href="#work-ex">
+                  <a className="btn-atas btn btn-warning shadow-lg mt-1 col-lg-4 col-md-6 col-sm-12" href="#work-ex" data-aos="fade-left"data-aos-delay={300}>
                     Work Experience
                   </a>
 
-                  <a className="btn-atas btn btn-warning shadow-lg mt-1 col-lg-4 col-md-6 col-sm-12" href="#education">
+                  <a className="btn-atas btn btn-warning shadow-lg mt-1 col-lg-4 col-md-6 col-sm-12" href="#education" data-aos="fade-right"data-aos-delay={300}>
                     Education
                   </a>
 
-                  <a className="btn-atas btn btn-warning shadow-lg mt-1 col-lg-4 col-md-6 col-sm-12" href="#contact">
+                  <a className="btn-atas btn btn-warning shadow-lg mt-1 col-lg-4 col-md-6 col-sm-12" href="#contact" data-aos="fade-left"data-aos-delay={300}>
                     Hire Me
                   </a>
 
