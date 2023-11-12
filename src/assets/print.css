@@ -1,6 +1,6 @@
 @media print {
   body {
-    background-color: #fff; }
+    background-color: #ffffff; }
   .container {
     width: auto;
     max-width: 100%;
@@ -10,7 +10,7 @@
   .cover.shadow-lg {
     box-shadow: none !important; }
   .cover-bg {
-    padding: 5rem !important;
+    padding: 2rem !important;
     padding-bottom: 10px !important; }
   .avatar {
     margin-top: -10px; }

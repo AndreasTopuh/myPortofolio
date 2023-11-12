@@ -206,10 +206,10 @@ footer a:not(.nav-link) {
 }
 
 .timeline-event-copy {
-  padding: 2em;
+  padding-left: 1em;
   position: relative;
   top: -1.875em;
-  left: 1.5em;
+  left: 1em;
   width: 100%;
 }
 
@@ -252,7 +252,7 @@ footer a:not(.nav-link) {
   -moz-transition: box-shadow 0.5s ease-in 0.1s;
   -o-transition: box-shadow 0.5s ease-in 0.1s;
   -webkit-transition: box-shadow 0.5s ease-in;
-  -webkit-transition-delay: 0.1s;
+  /* -webkit-transition-delay: 1s; */
   -webkit-transition: box-shadow 0.5s ease-in 0.1s;
   transition: box-shadow 0.5s ease-in 0.1s;
   color: white;
