@@ -212,7 +212,7 @@ const Body = () => {
               <div>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</div>
             </div>
             </div> */}
-              <div className="timeline-card timeline-card-dark card shadow-sm "
+              <div className="timeline-card  card shadow-lg"
                 data-aos="fade-up"
                 data-aos-delay={100}>
                 <div className="card-body">

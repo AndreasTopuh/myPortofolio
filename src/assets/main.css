@@ -27,7 +27,9 @@
   left: -41px;
   border: 2px solid;
   z-index: 2; }
-
+.timeline-card:hover:before {
+    background-color: #232e3d; /* Change to the color you want on hover */
+  }
 .timeline-card:after {
   content: '';
   display: inline-block;
