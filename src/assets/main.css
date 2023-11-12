@@ -114,7 +114,7 @@ footer a:not(.nav-link) {
 
 @media print {
   body {
-    background-color: #fff; }
+    background-color: #ffffff; }
   .container {
     width: auto;
     max-width: 100%;
