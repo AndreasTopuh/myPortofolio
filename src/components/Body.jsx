@@ -28,7 +28,7 @@ const Body = () => {
               </div>
 
               <div className="col-lg-8 col-md-7 text-center text-md">
-                <h2 className="h1 mt-2" data-aos="fade-left" data-aos-delay={0}>
+                <h2 className="h1 mt-2" data-aos="fade-bottom" data-aos-delay={1000}>
                   Andreas Jeno
                 </h2>
                 {/* <h2 className="h1 mt-2">Andreas Jeno</h2> */}
@@ -357,7 +357,7 @@ const Body = () => {
           <div className="education-section px-3 px-lg-4 pb-4">
             <h2 className="h3 mb-4" id="education">Education</h2>
             <div className="timeline">
-              <div className="timeline-card timeline-card-success card shadow-lg">
+              <div className="timeline-card timeline-card-success card shadow-lg" data-aos="fade-up" data-aos-delay={170}>
 
                 <div className="card-body">
                   <div className="h5 mb-1">
@@ -375,8 +375,7 @@ const Body = () => {
                   </div>
                 </div>
               </div>
-              <div className="timeline-card timeline-card-success card shadow-sm">
-                <div className="card-body">
+              <div className="timeline-card timeline-card-success card shadow-lg" data-aos="fade-up" data-aos-delay={170}>                <div className="card-body">
                   <div className="h5 mb-1">
                     Bachelor of Computer Science{" "}
                     <span className="text-muted h6">from Regional College</span>
@@ -390,8 +389,7 @@ const Body = () => {
                   </div>
                 </div>
               </div>
-              <div className="timeline-card timeline-card-success card shadow-sm">
-                <div className="card-body">
+<div className="timeline-card timeline-card-success card shadow-lg" data-aos="fade-up" data-aos-delay={170}>                <div className="card-body">
                   <div className="h5 mb-1">
                     Science and Mathematics{" "}
                     <span className="text-muted h6">from Mt. High Scool</span>
@@ -408,7 +406,7 @@ const Body = () => {
             </div>
           </div>
           <hr className="d-print-none" />
-          <div className="contant-section px-3 px-lg-4 pb-4" id="contact">
+          <div className="contant-section px-3 px-lg-4 pb-4" id="contact" data-aos="fade-up" data-aos-delay={170}>
             <h2 className="h3 text mb-3">Contact</h2>
             <div className="row">
               <div className="col-md-7 d-print-none">
