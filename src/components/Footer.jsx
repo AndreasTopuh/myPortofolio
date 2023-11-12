@@ -5,7 +5,7 @@ function Footer() {
     <footer className="pt-4 pb-4 text-muted text-center d-print-none">
     <div className="container">
         <div className="my-3">
-        <div className="h4">Joyce Harrison</div>
+        <div className="h4">Andreas Jeno Figo Topuh</div>
         <div className="footer-nav">
             <nav role="navigation">
             <ul className="nav justify-content-center">

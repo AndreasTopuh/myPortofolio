@@ -67,7 +67,7 @@ const Body = () => {
                   Hello, <span>I'am</span> Andreas Jeno. I am passionate about
                   UI/UX design and Web Design. I am a skilled Front-end
                   Developer and master of Graphic Design tools such as Photoshop
-                  and Sketch.
+                  and Illustrator.
                 </p>
               </div>
               <div className="col-md-5 offset-md-1">
@@ -113,7 +113,7 @@ const Body = () => {
                   <span>HTML</span>
                   <div className="progress my-1">
                     <div
-                      className="progress-bar  bg-success"
+                      className="progress-bar  bg-info"
                       role="progressbar"
                       data-aos="zoom-in-right"
                       data-aos-delay={100}
@@ -163,12 +163,12 @@ const Body = () => {
                   <span>Adobe Illustrator</span>
                   <div className="progress my-1">
                     <div
-                      className="progress-bar bg-primary"
+                      className="progress-bar bgd-dark"
                       role="progressbar"
                       data-aos="zoom-in-right"
                       data-aos-delay={500}
                       data-aos-anchor=".skills-section"
-                      style={{ width: "80%" }}
+                      style={{ width: "70%" }}
                       aria-valuenow={90}
                       aria-valuemin={0}
                       aria-valuemax={100}
@@ -184,7 +184,7 @@ const Body = () => {
                       data-aos="zoom-in-right"
                       data-aos-delay={500}
                       data-aos-anchor=".skills-section"
-                      style={{ width: "85%" }}
+                      style={{ width: "95%" }}
                       aria-valuenow={85}
                       aria-valuemin={0}
                       aria-valuemax={100}
@@ -195,12 +195,12 @@ const Body = () => {
                   <span>Capcut</span>
                   <div className="progress my-1">
                     <div
-                      className="progress-bar bg-warning"
+                      className="progress-bar bg-primary"
                       role="progressbar"
                       data-aos="zoom-in-right"
                       data-aos-delay={600}
                       data-aos-anchor=".skills-section"
-                      style={{ width: "75%" }}
+                      style={{ width: "85%" }}
                       aria-valuenow={75}
                       aria-valuemin={0}
                       aria-valuemax={100}
@@ -216,6 +216,7 @@ const Body = () => {
             <h2 className="h3 mb-4"  id="work-ex">
               Work Experience</h2>
             <div className="timeline">
+
               <div
                 className="timeline-card timeline-card-dark card shadow-lg"
                 data-aos="fade-up"
@@ -223,25 +224,22 @@ const Body = () => {
               >
                 <div className="card-body">
                   <div className="h5 mb-1">
-                    Frontend Developer{" "}
-                    <span className="text-muted h6">....</span>
+                    Graphics Designer{""}
+                    <span className="text-muted h6"> from Home</span>
                   </div>
                   <div className="text-muted text-small mb-2">
-                    May, 2015 - Present
+                    May, 2023 - Present
                   </div>
                   <div>
-                    Leverage agile frameworks to provide a robust synopsis for
-                    high level overviews. Iterative approaches to corporate
-                    strategy foster collaborative thinking to further the
-                    overall value proposition.
+                  Freelancing from home while studying in college offers a flexible schedule, steady income, skill development, real-world work experience, and networking opportunities. It allows students to manage their academic responsibilities, earn money for tuition fees, and gain valuable skills and experiences for their future careers. However, it requires dedication, discipline, and good time management skills to maintain a balance between work and academic responsibilities.
                   </div>
                 </div>
               </div>
-              <div
+
+              {/* <div
                 className="timeline-card timeline-card-dark card shadow-lg"
                 data-aos="fade-up"
-                data-aos-delay={160}
-              >
+                data-aos-delay={160}>
                 <div className="card-body">
                   <div className="h5 mb-1">
                     Freelance <span className="text-muted h6">from home</span>
@@ -255,7 +253,7 @@ const Body = () => {
                     because the project comes not everyday.{" "}
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               <div
                 className="timeline-card timeline-card-dark card shadow-lg"
@@ -265,10 +263,10 @@ const Body = () => {
                 <div className="card-body">
                   <div className="h5 mb-1">
                     Junior Web Developer{" "}
-                    <span className="text-muted h6">at Indie Studio</span>
+                    <span className="text-muted h6">from home</span>
                   </div>
                   <div className="text-muted text-small mb-2">
-                    Jan, 2011 - May, 2013
+                    Juni, 2024 - May, 2013
                   </div>
                   <div>
                     User generated content in real-time will have multiple
@@ -359,7 +357,8 @@ const Body = () => {
           <div className="education-section px-3 px-lg-4 pb-4">
             <h2 className="h3 mb-4" id="education">Education</h2>
             <div className="timeline">
-              <div className="timeline-card timeline-card-success card shadow-sm">
+              <div className="timeline-card timeline-card-success card shadow-lg">
+
                 <div className="card-body">
                   <div className="h5 mb-1">
                     Masters in Information Technology{" "}
@@ -467,7 +466,7 @@ const Body = () => {
                   <h3 className="h6">Phone</h3>
                   <div className="pb-2 text-secondary">+0718-111-0011</div>
                   <h3 className="h6">Email</h3>
-                  <div className="pb-2 text-secondary">Joyce@company.com</div>
+                  <div className="pb-2 text-secondary">andreasjeno23@gmail.com</div>
                 </div>
               </div>
               <div className="col d-none d-print-block">

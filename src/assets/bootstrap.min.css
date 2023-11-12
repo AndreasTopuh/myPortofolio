@@ -8041,6 +8041,10 @@ fieldset:disabled .btn {
     line-height: 2 !important
 }
 
+.bg-transparent {
+    background-color: burlywood
+}
+
 .bg-primary {
     background-color: #02295d !important
 }
