@@ -25,10 +25,10 @@
   height: 12px;
   top: 20px;
   left: -41px;
-  border: 2px solid;
+  border: 1.2px solid;
   z-index: 2; }
 .timeline-card:hover:before {
-    background-color: #232e3d; /* Change to the color you want on hover */
+    background-color: #eaff00; /* Change to the color you want on hover */
   }
 .timeline-card:after {
   content: '';
@@ -206,9 +206,6 @@ footer a:not(.nav-link) {
   background-color: #eaff00;
 }
 
-.timeline-event:hover .timeline-event-thumbnail {
-  box-shadow: inset 40em 0 0 0 rgb(0, 229, 255);
-}
 
 .timeline-event-copy {
   padding-left: 1em;
@@ -253,6 +250,7 @@ footer a:not(.nav-link) {
   height: 1em;
 }
 
+
 .timeline-event-thumbnail {
   -moz-transition: box-shadow 0.5s ease-in 0.1s;
   -o-transition: box-shadow 0.5s ease-in 0.1s;
@@ -261,11 +259,11 @@ footer a:not(.nav-link) {
   -webkit-transition: box-shadow 0.5s ease-in 0.1s;
   transition: box-shadow 0.5s ease-in 0.1s;
   color: white;
-  font-size: 17px;
-  font-weight: bold;
+  /* font-size: 17px; */
+  /* font-weight: bold; */
   background-color: rgb(158, 158, 158);
   box-shadow: inset 0 0 0 0em rgb(19, 255, 70);
-  display: inline-block;
+  /* display: inline-block; */
   margin-bottom: 1.2em;
   padding: 0.25em 1em 0.2em 1em;
 }

@@ -5,7 +5,6 @@ import Aos from "aos";
 import React, { useEffect } from "react";
 import "../assets/aos.css";
 
-
 const Body = () => {
   useEffect(() => {
     Aos.init();
@@ -205,18 +204,33 @@ const Body = () => {
           <div className="work-experience-section px-3 px-lg-2">
             <h2 className="h3 mb-4">Work Experience</h2>
             <div className="timeline">
-              {/* <div className="timeline-card timeline-card-primary card shadow-sm">
-            <div className="card-body">
-              <div className="h5 mb-1">Frontend Developer <span className="text-muted h6">....</span></div>
-              <div className="text-muted text-small mb-2">May, 2015 - Present</div>
-              <div>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</div>
-            </div>
-            </div> */}
-              <div className="timeline-card  card shadow-lg"
+              <div
+                className="timeline-card timeline-card-dark card shadow-lg"
                 data-aos="fade-up"
-                data-aos-delay={100}>
+                data-aos-delay={150}
+              >
                 <div className="card-body">
-                  
+                  <div className="h5 mb-1">
+                    Frontend Developer{" "}
+                    <span className="text-muted h6">....</span>
+                  </div>
+                  <div className="text-muted text-small mb-2">
+                    May, 2015 - Present
+                  </div>
+                  <div>
+                    Leverage agile frameworks to provide a robust synopsis for
+                    high level overviews. Iterative approaches to corporate
+                    strategy foster collaborative thinking to further the
+                    overall value proposition.
+                  </div>
+                </div>
+              </div>
+              <div
+                className="timeline-card timeline-card-dark card shadow-lg"
+                data-aos="fade-up"
+                data-aos-delay={160}
+              >
+                <div className="card-body">
                   <div className="h5 mb-1">
                     Freelance <span className="text-muted h6">from home</span>
                   </div>
@@ -230,7 +244,12 @@ const Body = () => {
                   </div>
                 </div>
               </div>
-              {/* <div className="timeline-card timeline-card-primary card shadow-sm" data-aos="fade-up" data-aos-delay={100}>
+
+              <div
+                className="timeline-card timeline-card-dark card shadow-lg"
+                data-aos="fade-up"
+                data-aos-delay={170}
+              >
                 <div className="card-body">
                   <div className="h5 mb-1">
                     Junior Web Developer{" "}
@@ -246,17 +265,17 @@ const Body = () => {
                     and empowerment.
                   </div>
                 </div>
-              </div> */}
-              
-              <div className="section-s" id="experience">
+              </div>
+
+              {/* <div className="section-s" id="experience">
                 <div className="container">
-                  {/* <div className="col-md-12">
+                  <div className="col-md-12">
                     <h4>02</h4>
                     <h1 className="size-50">
                       My <br /> Experience
                     </h1>
                     <div className="h-50" />
-                  </div> */}
+                  </div>
                   <div className="col-md-12">
                     <ul className="timeline">
                       <li className="timeline-event" data-aos="fade-up">
@@ -319,7 +338,7 @@ const Body = () => {
                     </ul>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <hr className="d-print-none" />
