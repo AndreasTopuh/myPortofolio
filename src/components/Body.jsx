@@ -30,7 +30,7 @@ const Body = () => {
               <div className="col-lg-8 col-md-7 text-center text-md">
                 <h2
                   className="h1 mt-2"
-                  data-aos="fade-left"
+                  data-aos="fade-top"
                   data-aos-delay={100}
                 >
                   Andreas Jeno
@@ -518,7 +518,7 @@ const Body = () => {
               <div className="col-md-7 d-print-none">
                 <div className="my-2">
                   <form
-                    action="https://formspree.io/your@email.com"
+                    action="https://formspree.io/f/mvojnggg"
                     method="POST"
                   >
                     <div className="row">
