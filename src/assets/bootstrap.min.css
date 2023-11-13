@@ -5295,7 +5295,10 @@ fieldset:disabled .btn {
     background-color: #e9ecef;
     border-radius: .25rem
 }
-
+.custom-progress-bar {
+    transform: scaleX(-1);
+  }
+  
 .progress-bar {
     display: flex;
     flex-direction: column;

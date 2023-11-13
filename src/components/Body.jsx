@@ -28,37 +28,65 @@ const Body = () => {
               </div>
 
               <div className="col-lg-8 col-md-7 text-center text-md">
-                <h2 className="h1 mt-2" data-aos="fade-left" data-aos-delay={100}>
+                <h2
+                  className="h1 mt-2"
+                  data-aos="fade-left"
+                  data-aos-delay={100}
+                >
                   Andreas Jeno
                 </h2>
                 {/* <h2 className="h1 mt-2">Andreas Jeno</h2> */}
-                <p data-aos="fade-up" data-aos-delay={100}>Graphic Designer &amp; Web Developer</p>
+                <p data-aos="fade-up" data-aos-delay={100}>
+                  Graphic Designer &amp; Web Developer
+                </p>
                 <div className="d-print-none ">
-
                   {/* <a className="btn btn-light text-dark shadow-lg mt-1 me-1 col-6 col-md-4" href="right-resume.pdf" target="_blank">
                     Download CV
                   </a> */}
 
-                  <a className="btn-atas btn btn-warning shadow-lg mt-1 col-lg-4 col-md-6 col-sm-12" href="right-resume.pdf" target="_blank" data-aos="fade-right"data-aos-delay={300} > 
+                  <a
+                    className="btn-atas btn btn-warning shadow-lg mt-1 col-lg-4 col-md-6 col-sm-12"
+                    href="right-resume.pdf"
+                    target="_blank"
+                    data-aos="fade-right"
+                    data-aos-delay={300}
+                  >
                     Download CV
                   </a>
 
-                  <a className="btn-atas btn btn-warning shadow-lg mt-1 col-lg-4 col-md-6 col-sm-12" href="#work-ex" data-aos="fade-left"data-aos-delay={300}>
+                  <a
+                    className="btn-atas btn btn-warning shadow-lg mt-1 col-lg-4 col-md-6 col-sm-12"
+                    href="#work-ex"
+                    data-aos="fade-left"
+                    data-aos-delay={300}
+                  >
                     Work Experience
                   </a>
 
-                  <a className="btn-atas btn btn-warning shadow-lg mt-1 col-lg-4 col-md-6 col-sm-12" href="#education" data-aos="fade-right"data-aos-delay={300}>
+                  <a
+                    className="btn-atas btn btn-warning shadow-lg mt-1 col-lg-4 col-md-6 col-sm-12"
+                    href="#education"
+                    data-aos="fade-right"
+                    data-aos-delay={300}
+                  >
                     Education
                   </a>
 
-                  <a className="btn-atas btn btn-warning shadow-lg mt-1 col-lg-4 col-md-6 col-sm-12" href="#contact" data-aos="fade-left"data-aos-delay={300}>
+                  <a
+                    className="btn-atas btn btn-warning shadow-lg mt-1 col-lg-4 col-md-6 col-sm-12"
+                    href="#contact"
+                    data-aos="fade-left"
+                    data-aos-delay={300}
+                  >
                     Hire Me
                   </a>
-
                 </div>
               </div>
             </div>
           </div>
+
+
+
           <div className="about-section pt-4 px-3 px-lg-4 mt-1">
             <div className="row">
               <div className="col-md-6">
@@ -105,20 +133,21 @@ const Body = () => {
             </div>
           </div>
           <hr className="d-print-none" />
+
           <div className="skills-section px-3 px-lg-4" id="pro-skill">
-            <h2 className="h3 mb-3">Professional Skills</h2>
+            <h2 className="h3 mb-3">Skills</h2>
             <div className="row">
               <div className="col-md-6">
                 <div className="mb-2">
-                  <span>HTML</span>
+                  <span>Programing</span>
                   <div className="progress my-1">
                     <div
-                      className="progress-bar  bg-info"
+                      className="progress-bar  bg-info custom-progress-bar"
                       role="progressbar"
                       data-aos="zoom-in-right"
                       data-aos-delay={100}
                       data-aos-anchor=".skills-section"
-                      style={{ width: "90%" }}
+                      style={{ width: "90%", flexDirection: "row-reverse" }}
                       aria-valuenow={90}
                       aria-valuemin={0}
                       aria-valuemax={100}
@@ -210,13 +239,46 @@ const Body = () => {
               </div>
             </div>
           </div>
+          
+          
+
           <hr className="d-print-none" />
-
           <div className="work-experience-section px-3 px-lg-2">
-            <h2 className="h3 mb-4"  id="work-ex">
-              Work Experience</h2>
-            <div className="timeline">
+            <h2 className="h3 mb-4" id="work-ex">
+              Work Experience
+            </h2>
 
+                      {/* COPY INI  */}
+          <div
+            className="timeline-card timeline-card-dark card shadow-lg"
+            data-aos="fade-up"
+            data-aos-delay={170}
+          >
+            <div className="card-body">
+              <div className="h5 mb-1">
+                SOON{" "}
+                {/* <a
+                  href="https://www.bing.com/ck/a?!&&p=9986bd3c3eeab235JmltdHM9MTY5OTc0NzIwMCZpZ3VpZD0zNzRhN2VhNS1iNTkwLTYxYmItMTg2OS02ZDMyYjQ1MzYwN2QmaW5zaWQ9NTIyMw&ptn=3&ver=2&hsh=3&fclid=374a7ea5-b590-61bb-1869-6d32b453607d&psq=OSIS&u=a1aHR0cHM6Ly9pZC53aWtpcGVkaWEub3JnL3dpa2kvT3JnYW5pc2FzaV9TaXN3YV9JbnRyYV9TZWtvbGFo&ntb=1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: "none", color: "red" }}
+                >
+                  <strong> OSIS </strong>
+                </a>{" "} */}
+                {/* <span className="text-muted h6">from home</span> */}
+              </div>
+              {/* <div className="text-muted text-small mb-2">
+                Juni, 2024 - May, 2013
+              </div>
+              <div>
+                User generated content in real-time will have multiple
+                touchpoints for offshoring. Organically grow the holistic world
+                view of disruptive innovation via workplace diversity and
+                empowerment.
+              </div> */}
+            </div>
+          </div>
+            <div className="timeline">
               <div
                 className="timeline-card timeline-card-dark card shadow-lg"
                 data-aos="fade-up"
@@ -231,29 +293,20 @@ const Body = () => {
                     May, 2023 - Present
                   </div>
                   <div>
-                  Freelancing from home while studying in college offers a flexible schedule, steady income, skill development, real-world work experience, and networking opportunities. It allows students to manage their academic responsibilities, earn money for tuition fees, and gain valuable skills and experiences for their future careers. However, it requires dedication, discipline, and good time management skills to maintain a balance between work and academic responsibilities.
+                    Freelancing from home while studying in college offers a
+                    flexible schedule, steady income, skill development,
+                    real-world work experience, and networking opportunities. It
+                    allows me to manage their academic responsibilities, earn
+                    money for tuition fees, and gain valuable skills and
+                    experiences for their future careers. However, it requires
+                    dedication, discipline, and good time management skills to
+                    maintain a balance between work and academic
+                    responsibilities.
                   </div>
                 </div>
               </div>
 
-              {/* <div
-                className="timeline-card timeline-card-dark card shadow-lg"
-                data-aos="fade-up"
-                data-aos-delay={160}>
-                <div className="card-body">
-                  <div className="h5 mb-1">
-                    Freelance <span className="text-muted h6">from home</span>
-                  </div>
-                  <div className="text-muted h3">March, 2023 - now</div>
-                  <div className="text-muted text-small mb-2">
-                    March, 2023 - now
-                  </div>
-                  <div>
-                    Being Freelance sometimes good and sometimes not good,
-                    because the project comes not everyday.{" "}
-                  </div>
-                </div>
-              </div> */}
+              
 
               <div
                 className="timeline-card timeline-card-dark card shadow-lg"
@@ -262,7 +315,46 @@ const Body = () => {
               >
                 <div className="card-body">
                   <div className="h5 mb-1">
-                    Junior Web Developer{" "}
+                    Google Developer Student Club{" "}
+                    <a
+                      href="https://developers.google.com/community/gdsc"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ textDecoration: "none", color: "green" }}
+                    >
+                      <strong>GDSC</strong>
+                    </a>{" "}
+                    <span className="text-muted h6">in Klabat University</span>
+                  </div>
+
+                  <div className="text-muted text-small mb-2">
+                    November, 2022 - Present
+                  </div>
+                  <div>
+                    I joined GDSC and became part of the core team in the
+                    Artificial Intelligence team, where our task is to provide
+                    teaching to students about artificial intelligence topics.
+                  </div>
+                </div>
+              </div>
+
+              {/* COPY INI  */}
+              <div
+                className="timeline-card timeline-card-dark card shadow-lg"
+                data-aos="fade-up"
+                data-aos-delay={170}
+              >
+                <div className="card-body">
+                  <div className="h5 mb-1">
+                    Pengurus Sekolah SMA{" "}
+                    <a
+                      href="https://www.bing.com/ck/a?!&&p=9986bd3c3eeab235JmltdHM9MTY5OTc0NzIwMCZpZ3VpZD0zNzRhN2VhNS1iNTkwLTYxYmItMTg2OS02ZDMyYjQ1MzYwN2QmaW5zaWQ9NTIyMw&ptn=3&ver=2&hsh=3&fclid=374a7ea5-b590-61bb-1869-6d32b453607d&psq=OSIS&u=a1aHR0cHM6Ly9pZC53aWtpcGVkaWEub3JnL3dpa2kvT3JnYW5pc2FzaV9TaXN3YV9JbnRyYV9TZWtvbGFo&ntb=1"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ textDecoration: "none", color: "red" }}
+                    >
+                      <strong> OSIS </strong>
+                    </a>{" "}
                     <span className="text-muted h6">from home</span>
                   </div>
                   <div className="text-muted text-small mb-2">
@@ -355,58 +447,72 @@ const Body = () => {
           <div className="page-break" />
 
           <div className="education-section px-3 px-lg-4 pb-4">
-            <h2 className="h3 mb-4" id="education">Education</h2>
+            <h2 className="h3 mb-4" id="education">
+              Education
+            </h2>
             <div className="timeline">
-              <div className="timeline-card timeline-card-success card shadow-lg" data-aos="fade-up" data-aos-delay={170}>
-
+              <div
+                className="timeline-card timeline-card-success card shadow-lg"
+                data-aos="fade-up"
+                data-aos-delay={170}
+              >
                 <div className="card-body">
                   <div className="h5 mb-1">
-                    Masters in Information Technology{" "}
+                    Bachelor of Computer Science{" "}
                     <span className="text-muted h6">
-                      from International University
+                      from Klabat University
                     </span>
                   </div>
-                  <div className="text-muted text-small mb-2">2011 - 2013</div>
+                  <div className="text-muted text-small mb-2">2021 - Present</div>
                   <div>
-                    Leverage agile frameworks to provide a robust synopsis for
-                    high level overviews. Iterative approaches to corporate
-                    strategy foster collaborative thinking to further the
-                    overall value proposition.
+                  I am enrolled at Klabat University, and I am majoring in the Faculty of Computer Science, and I enjoy it.
                   </div>
                 </div>
               </div>
-              <div className="timeline-card timeline-card-success card shadow-lg" data-aos="fade-up" data-aos-delay={170}>                <div className="card-body">
+              <div
+                className="timeline-card timeline-card-success card shadow-lg"
+                data-aos="fade-up"
+                data-aos-delay={170}
+              >
+                {" "}
+                <div className="card-body">
                   <div className="h5 mb-1">
-                    Bachelor of Computer Science{" "}
-                    <span className="text-muted h6">from Regional College</span>
+                    SMA Dharma Putra Advent Bekasi{" "}
+                    <span className="text-muted h6">in Bekasi</span>
                   </div>
-                  <div className="text-muted text-small mb-2">2007 - 2011</div>
+                  <div className="text-muted text-small mb-2">2018 - 2021</div>
                   <div>
-                    Override the digital divide with additional clickthroughs
-                    from DevOps. Nanotechnology immersion along the information
-                    highway will close the loop on focusing solely on the bottom
-                    line.
+                  I attended Dhargam Putra Advent High School in Selamat Sama, and I lived there as I moved away from home. I stayed with my aunt, and during that time, I experienced the significance of standing on my own and being independent.
+
                   </div>
                 </div>
               </div>
-<div className="timeline-card timeline-card-success card shadow-lg" data-aos="fade-up" data-aos-delay={170}>                <div className="card-body">
+              <div
+                className="timeline-card timeline-card-success card shadow-lg"
+                data-aos="fade-up"
+                data-aos-delay={170}
+              >
+                {" "}
+                <div className="card-body">
                   <div className="h5 mb-1">
-                    Science and Mathematics{" "}
-                    <span className="text-muted h6">from Mt. High Scool</span>
+                    SMP di Manado Independent School{" "}
+                    <span className="text-muted h6">in Manado</span>
                   </div>
-                  <div className="text-muted text-small mb-2">1995 - 2007</div>
+                  <div className="text-muted text-small mb-2"></div>
                   <div>
-                    User generated content in real-time will have multiple
-                    touchpoints for offshoring. Organically grow the holistic
-                    world view of disruptive innovation via workplace diversity
-                    and empowerment.
+                  I attended Dhargam Putra Advent High School in Selamat Sama, and I lived there as I moved away from home. I stayed with my aunt, and during that time, I experienced the significance of standing on my own and being independent.
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <hr className="d-print-none" />
-          <div className="contant-section px-3 px-lg-4 pb-4" id="contact" data-aos="fade-up" data-aos-delay={170}>
+          <div
+            className="contant-section px-3 px-lg-4 pb-4"
+            id="contact"
+            data-aos="fade-up"
+            data-aos-delay={170}
+          >
             <h2 className="h3 text mb-3">Contact</h2>
             <div className="row">
               <div className="col-md-7 d-print-none">
@@ -459,12 +565,14 @@ const Body = () => {
                 <div className="mt-2">
                   <h3 className="h6">Address</h3>
                   <div className="pb-2 text-secondary">
-                    140, City Center, New York, U.S.A
+                    Bitung City, North Sulawesi, Indonesia
                   </div>
                   <h3 className="h6">Phone</h3>
-                  <div className="pb-2 text-secondary">+0718-111-0011</div>
+                  <div className="pb-2 text-secondary">0857-1779-7065</div>
                   <h3 className="h6">Email</h3>
-                  <div className="pb-2 text-secondary">andreasjeno23@gmail.com</div>
+                  <div className="pb-2 text-secondary">
+                    andreasjeno23@gmail.com
+                  </div>
                 </div>
               </div>
               <div className="col d-none d-print-block">
