@@ -1,6 +1,12 @@
 import { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { EMAILJS_CONFIG } from '../config/emailjs';
+
+// EmailJS configuration from environment variables
+const EMAILJS_CONFIG = {
+  publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+  serviceId: import.meta.env.VITE_EMAILJS_SERVICE_ID,
+  templateId: import.meta.env.VITE_EMAILJS_TEMPLATE_ID
+};
 
 function Contact() {
   const formRef = useRef();
