@@ -38,12 +38,28 @@ h4:before {
 
 /* General
 ==================================================*/
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100vw;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 24px;
     margin: 0;
     padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .size-50 {
@@ -145,6 +161,8 @@ header {
     left: 0;
     right: 0;
     z-index: 1000;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 header nav ul {
@@ -154,6 +172,8 @@ header nav ul {
     padding: 20px;
     margin-bottom: 0;
     transition: all .5s;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 header nav li {
@@ -916,6 +936,20 @@ header nav li a.active {
     .social li a svg {
         width: 28px;
         height: 28px;
+    }
+
+    /* Fix horizontal overflow */
+    .container {
+        padding: 0 15px;
+        overflow-x: hidden;
+    }
+
+    #about .about-img-div {
+        justify-content: center;
+    }
+
+    #about .about-img-div img {
+        max-width: 280px;
     }
 }
 
