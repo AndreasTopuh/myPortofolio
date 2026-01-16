@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 # EmailJS Configuration (contains sensitive keys)
-js/config.js
+src/config/emailjs.js
